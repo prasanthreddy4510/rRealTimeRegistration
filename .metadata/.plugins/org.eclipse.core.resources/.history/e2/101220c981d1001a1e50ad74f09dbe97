@@ -1,0 +1,12 @@
+package com.tcs.utils;
+
+public class AppConstants {
+
+	public static final String ACC_STATUS = "Locked";
+	public static final int TARGET_STRING_LENGHT = 6;
+	public static final String UNLCK_YR_ACC_THRU_PRASANTH_GRANADE="Unlock your account through Prasanth Granade";
+	public static final String UNLOCK_ACC_BODY="UNLOCK_ACC_BODY";
+	public static final String DUPLICATE="duplicate";
+	public static final String UNIQUE="unique";
+	
+}

@@ -1,0 +1,16 @@
+  
+Hi  {FNAME} {LNAME} :
+<br/>
+
+Welcome to <b>PRASANTH VALCONO GRANADE PVT.LMT</b> , Your registration is almost completed.Plese use below details to unlock your account.<br/>
+<br/>
+
+Temporary Password : <b>{TEMP-PWD}</b><br/>
+<br/>
+
+<a href='http://localhost:8086/unlockAcc?email={EMAIL}'>
+Click Here To Unlock Your Account</a> <br/>
+<br/>
+
+Thanks & Regards,<br/>
+PRASANTH VALCONO GRANADE Team.<br/>

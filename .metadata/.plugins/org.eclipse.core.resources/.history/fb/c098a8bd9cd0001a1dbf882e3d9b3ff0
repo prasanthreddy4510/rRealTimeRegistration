@@ -1,0 +1,10 @@
+package com.tcs.response;
+
+public class TicketInfo {
+
+	private Integer ticketId;
+	private String from;
+	private String to;
+	private String journeyDate;
+	
+}

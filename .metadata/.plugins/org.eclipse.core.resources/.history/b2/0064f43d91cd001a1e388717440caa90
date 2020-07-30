@@ -1,0 +1,5 @@
+package com.tcs.serviceimpls;
+
+public class EmailServiceImpl {
+
+}

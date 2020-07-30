@@ -1,0 +1,43 @@
+package com.tcs.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.tcs.models.Login;
+import com.tcs.service.LoginService;
+
+@Controller
+public class LoginController {
+	
+	@Autowired
+	private LoginService service;
+
+	@GetMapping("/login")
+	public String loadLoginForm(Model model) {
+		Login log=new Login();
+		model.addAttribute("login",log);
+		
+		return "loginform";
+		
+	}
+	
+	@PostMapping("/validate")
+	@ResponseBody
+	public String handlSbmtBtn(@ModelAttribute("login")Login login) {
+		if(login!=null) {
+		boolean isValid = service.validateLogin(login);
+		}
+		
+		if(isValid) {
+			
+		}
+		return null;
+		
+	}
+	
+}

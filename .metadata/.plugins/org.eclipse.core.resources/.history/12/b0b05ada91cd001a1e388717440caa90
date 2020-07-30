@@ -1,0 +1,9 @@
+package com.tcs.service;
+
+import javax.mail.MessagingException;
+
+public interface EmailService {
+	
+	public void sendEmailWithAttachments(String email,String fname,String lname) throws MessagingException;
+
+}

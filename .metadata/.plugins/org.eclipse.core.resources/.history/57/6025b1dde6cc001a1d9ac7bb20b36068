@@ -1,0 +1,16 @@
+package com.tcs.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+@Data
+@Entity
+@Table(name="cities")
+public class CitiesEntity {
+
+	private Integer cityId;
+	private Integer stateId;
+	private String cityName;
+}

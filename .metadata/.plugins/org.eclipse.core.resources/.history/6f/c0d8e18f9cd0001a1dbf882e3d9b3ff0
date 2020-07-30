@@ -1,0 +1,5 @@
+package com.tcs.response;
+
+public class TicketInfo {
+
+}

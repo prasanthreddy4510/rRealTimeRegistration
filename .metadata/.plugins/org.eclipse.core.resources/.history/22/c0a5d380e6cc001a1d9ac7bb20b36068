@@ -1,0 +1,5 @@
+package com.tcs.entities;
+
+public class CitiesEntity {
+
+}

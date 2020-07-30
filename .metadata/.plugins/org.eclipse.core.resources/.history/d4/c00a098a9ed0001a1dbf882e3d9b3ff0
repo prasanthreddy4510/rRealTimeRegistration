@@ -1,0 +1,22 @@
+package com.tcs.swagger;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.tcs.request.PassingerInfo;
+import com.tcs.response.TicketInfo;
+public class TicketController {
+
+	public ResponseEntity<TicketInfo> getDetails(@RequestBody PassingerInfo pInfo ){
+		TicketInfo info=new TicketInfo();
+		info.setName(pInfo.getFirstName()+" "+pInfo.getLastName());
+		info.setFrom(pInfo.getFrom());
+		info.setTo(pInfo.getTo());
+		info.setJourneyDate(pInfo.getJourneyDate());
+
+		
+		
+		return null;
+		
+	}
+}

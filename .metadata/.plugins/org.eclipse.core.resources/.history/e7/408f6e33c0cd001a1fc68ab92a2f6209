@@ -1,0 +1,28 @@
+package com.tcs.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.tcs.models.Registration;
+
+@Controller
+public class UnlockController {
+
+	@GetMapping("/unlockAcc")
+	public String unlockAccount(@RequestParam("email")String email,Model model) {
+	
+		model.addAttribute("email", email);
+		Registration reg=new Registration();
+		model.addAttribute("registration", reg);
+		
+		return "unlockscreen";
+		
+	}
+	
+	public String HandleSubmitButton() {
+		return null;
+		
+	}
+}

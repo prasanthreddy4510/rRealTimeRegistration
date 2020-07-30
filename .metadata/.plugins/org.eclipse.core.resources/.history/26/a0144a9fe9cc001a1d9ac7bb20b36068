@@ -1,0 +1,6 @@
+package com.tcs.repositories;
+
+public interface CountriesRepo extends JpaRepository<CountriesEntity,Serializable>{
+
+	
+}

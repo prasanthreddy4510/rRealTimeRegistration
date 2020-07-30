@@ -1,0 +1,5 @@
+package com.tcs.models;
+
+public class Email {
+
+}
