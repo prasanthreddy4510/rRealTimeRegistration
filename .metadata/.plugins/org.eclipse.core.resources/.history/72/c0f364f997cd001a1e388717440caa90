@@ -1,8 +1,0 @@
-package com.tcs.utils;
-
-public class AppConstants {
-
-	public static final String AccStatus = "Locked";
-	public static final int TargetStringLength = 6;
-	
-}

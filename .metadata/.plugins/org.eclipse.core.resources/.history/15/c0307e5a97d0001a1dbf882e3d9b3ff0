@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="ticke-app-swagger">
-        <property name="context-root" value="ticke-app-swagger"/>
-    </wb-module>
-</project-modules>

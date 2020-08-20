@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="SSN-app-3rd"/>
 <aop-project name="RegApp"/>
+<aop-project name="Paytm-RestClient-app"/>
 <aop-project name="ticke-app-swagger"/>
 </aop-reference-model>

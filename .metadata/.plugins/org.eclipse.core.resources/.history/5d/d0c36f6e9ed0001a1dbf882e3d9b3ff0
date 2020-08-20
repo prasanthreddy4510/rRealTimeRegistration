@@ -1,9 +1,0 @@
-package com.tcs.swagger;
-
-public class TicketController {
-
-	public ResponseEntity<TicketInfo> getDetails(){
-		
-		
-	}
-}

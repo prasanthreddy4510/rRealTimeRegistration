@@ -1,7 +1,0 @@
-package com.tcs.service;
-
-public interface EmailService {
-	
-	public void sendEmailWithAttachments(String email,String fname,String lname);
-
-}

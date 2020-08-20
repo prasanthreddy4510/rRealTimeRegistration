@@ -13,6 +13,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import lombok.Data;
 
@@ -55,6 +56,7 @@ public class RegistrationEntity {
 	private Date createdDate;
 	@Column(name="UPDATED_DT",insertable = false)
 	@Temporal(TemporalType.DATE)
+	@UpdateTimestamp
 	private Date UpdatedDate;
 	
 

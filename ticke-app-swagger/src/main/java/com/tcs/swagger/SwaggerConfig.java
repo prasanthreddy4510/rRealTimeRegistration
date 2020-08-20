@@ -15,7 +15,8 @@ public class SwaggerConfig {
 
 	@Bean
 	public Docket restApi() {
-		return new Docket(DocumentationType.SWAGGER_2).select().apis(RequestHandlerSelectors.basePackage("com.tcs.swagger"))
+		return new Docket(DocumentationType.SWAGGER_2).select()
+				.apis(RequestHandlerSelectors.basePackage("com.tcs.swagger"))
 				.paths(PathSelectors.any()).build();
 	}
 }
